@@ -1,0 +1,41 @@
+:root {
+    --horizontal-duration: 9.97s;
+    --vertical-duration: 6.91s;
+    --horizontal-delay: -2s;
+    --vertical-delay: -1s;
+}
+
+.bounce img {
+    position: fixed;
+    width: 128px;
+    height: 128px;
+    animation: var(--horizontal-duration) linear var(--horizontal-delay) infinite forwards horizontal, var(--vertical-duration) linear var(--vertical-delay) infinite forwards vertical;
+}
+
+@keyframes horizontal {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: calc(100% - 128px);
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes vertical {
+    0% {
+        top: 0%;
+    }
+
+    50% {
+        top: calc(100% - 128px);
+    }
+
+    100% {
+        top: 0%;
+    }
+}
