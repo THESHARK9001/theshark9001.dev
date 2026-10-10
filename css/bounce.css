@@ -7,8 +7,6 @@
 
 .bounce img {
     position: fixed;
-    width: 128px;
-    height: 128px;
     animation: var(--horizontal-duration) linear var(--horizontal-delay) infinite forwards horizontal, var(--vertical-duration) linear var(--vertical-delay) infinite forwards vertical;
 }
 
@@ -18,7 +16,7 @@
     }
 
     50% {
-        left: calc(100% - 128px);
+        left: calc(100% - 256px);
     }
 
     100% {
@@ -32,7 +30,7 @@
     }
 
     50% {
-        top: calc(100% - 128px);
+        top: calc(100% - 256px);
     }
 
     100% {
