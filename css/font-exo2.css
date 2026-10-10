@@ -3,6 +3,6 @@
   src: url(/fonts/Exo2-Regular.ttf);
   font-weight: normal;
 }
-body * {
+* {
     font-family: "Exo 2";
 }
