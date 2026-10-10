@@ -1,0 +1,48 @@
+/*Thanks w3schools for the original script*/
+
+* {
+    box-sizing: border-box;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+div.gallery-item {
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid #777;
+    width: calc(25% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div.gallery-item:hover {
+    border: 2px solid #ccc;
+}
+
+div.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery-item div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    div.gallery-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div.gallery-item {
+    width: calc(100% - 20px);
+    }
+}
