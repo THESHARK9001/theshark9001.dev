@@ -1,0 +1,65 @@
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  top: 0%;
+  right: 0%;
+  position: fixed;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+div.scroll-container .arrow:hover{
+    cursor: url("/images/androcurpack/arrow.png"), auto;
+}
+div.scroll-container .help:hover {
+    cursor: url("/images/androcurpack/help.png"), auto;
+}
+div.scroll-container .working:hover {
+    cursor: url("/images/androcurpack/working.gif"), auto;
+}
+div.scroll-container .busy:hover {
+    cursor: url("/images/androcurpack/busy.gif"), auto;
+}
+div.scroll-container .cross:hover {
+    cursor: url("/images/androcurpack/cross.gif"), auto;
+}
+div.scroll-container .ibeam:hover {
+    cursor: url("/images/androcurpack/ibeam.gif"), auto;
+}
+div.scroll-container .handwriting:hover {
+    cursor: url("/images/androcurpack/handwriting.png"), auto;
+}
+div.scroll-container .unavailable:hover {
+    cursor: url("/images/androcurpack/unavailable.png"), auto;
+}
+div.scroll-container .vertical:hover {
+    cursor: url("/images/androcurpack/vertical.png"), auto;
+}
+div.scroll-container .horizontal:hover {
+    cursor: url("/images/androcurpack/horizontal.png"), auto;
+}
+div.scroll-container .diagonal_1:hover {
+    cursor: url("/images/androcurpack/diagonal_1.png"), auto;
+}
+div.scroll-container .diagonal_2:hover {
+    cursor: url("/images/androcurpack/diagonal_2.png"), auto;
+}
+div.scroll-container .move:hover {
+    cursor: url("/images/androcurpack/move.png"), auto;
+}
+div.scroll-container .alternate:hover {
+    cursor: url("/images/androcurpack/alternate.png"), auto;
+}
+div.scroll-container .link:hover {
+    cursor: url("/images/androcurpack/link.png"), auto;
+}
+div.scroll-container .location:hover {
+    cursor: url("/images/androcurpack/location.gif"), auto;
+}
+div.scroll-container .person:hover {
+    cursor: url("/images/androcurpack/person.gif"), auto;
+}
