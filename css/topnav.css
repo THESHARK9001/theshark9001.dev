@@ -8,6 +8,7 @@ body {
   background-color: #666;
   position: fixed;
   top: 0%;
+  width: 50%;
 }
 
 .topnav a {
@@ -16,7 +17,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 100%;
 }
 
 .topnav a:hover {
